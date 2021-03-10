@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
+}
+
+header{
+  font-size: 2rem;
+  font-family: 'Hachi Maru Pop', cursive;
+
+  color: #ef8d32;
+  font-weight: 900;
+  background: #ffffff;
+  margin: -10px -15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  box-shadow: 0 0 10px 0 rgba(236, 235, 235, 0.3);
+}
+
+input{
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 14px;
+  padding-bottom: 10px;
+  width: 33%;
+
+  background-color: #f2a154;
+  color:white;
+ 
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+button{
+  display: flex;
+  border-style: solid;
+  outline: none;
+  border-radius: 100px;
+
+
+  background-color: rgb(255, 253, 253);
+  color: #f2a154;
+  width: 10%;
+  font-weight: 600;
+  border-color: #e7e7e7;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+
+ 
+  line-height: 20px;
+  font-size: 12pt;
+  margin-top: 1px;
+  margin-right: 2px;
+  position:absolute;
+  top: 10px;
+  right: 80px;
+  text-align: center;
+  cursor: pointer;
+
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+
+  transition: 0.4s ease-in-out;
+
+}
+
+button:hover{
+  background-color: #f2a154;
+  color: #fff;
+  border-color: #f2a154;
+  transition: 0.4s ease-in-out;
+  box-shadow: none;
+}
+
+button:active{
+  transform: translateY(4px);
+  background-color:#fa973ab7;
+  border-color:#fa973ab7;
+  transition: 0.1s;
+  
+}
