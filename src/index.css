@@ -52,6 +52,7 @@ button{
   border-style: solid;
   outline: none;
   border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
 
 
   background-color: rgb(255, 253, 253);
@@ -96,3 +97,38 @@ button:active{
   transition: 0.1s;
   
 }
+
+.randomJoke{
+  text-align: center;
+
+  border: 1px solid #fa973ab7;
+  border-radius: 24px;
+  background-color: white;
+
+  width : 350px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin: 150px auto;
+
+  
+}
+
+.jokePar{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+
+  padding: 20px;
+  padding-bottom: 45px;
+  line-height: 1.85;
+
+}
+
+.jokeh3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  padding: 20px;
+
+}
+
+
+
